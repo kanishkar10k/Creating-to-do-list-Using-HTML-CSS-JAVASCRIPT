@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div class="box1">
+        <h1>TO-DO-LIST</h1>
+        <input placeholder="Enter the items..." id="items">
+        <button onclick="add()" id="add">ADD</button>
+        <ol id="list">
+            <li>Hit the Gym <button onclick="del(this)">X</button></li>
+            <li>Wash your Hair<button onclick="del(this)">X</button></li>
+            <li>Take a Nap<button onclick="del(this)">X</button></li>
+        </ol>
+    </div>
+</body>
+</html>
